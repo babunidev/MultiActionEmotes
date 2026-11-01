@@ -1,6 +1,8 @@
-# ROARRunlimited — interaction and expressive design
+# MultiActionEmotes — interaction and expressive design
 
-**Creative author:** Babuni.dev.
+The central idea was to give several buttons on my action bar independently paced opportunities for character expression. That remains the purpose of **MultiActionEmotes**, historically called **ROARRunlimited**.
+
+**Creative author:** Babuni.
 
 ## The action bar as a rhythmic instrument
 
