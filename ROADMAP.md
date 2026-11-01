@@ -1,6 +1,6 @@
-# ROARRunlimited — verification backlog and open proposals
+# MultiActionEmotes — verification backlog and open proposals
 
-**Author and decision-maker:** Babuni.dev  
+**Author and decision-maker:** Babuni  
 **Status:** test planning and possible future choices, not approved implementation milestones.
 
 ## Current source baseline
@@ -39,6 +39,6 @@ For each test, record client/build, exact addon folder, loaded addons, steps, ex
 - Keep per-instance numbers as the only UI or add an easier listing/renaming workflow?
 - Is removing BORED a permanent creative direction?
 - Should `/roed info` display the remaining cooldown, or is the current summary sufficient?
-- Does Babuni.dev want this as a distinct portfolio artifact in a ROAR lineage, or a maintained replacement?
+- Does Babuni want this as a distinct portfolio artifact in a ROAR lineage, or a maintained replacement?
 
 Documentation work does not select these options or authorize modifications.
