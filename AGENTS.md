@@ -1,6 +1,12 @@
-# ROARRunlimited — development instructions
+# MultiActionEmotes — development instructions
 
-**Project creator and creative authority:** Babuni.dev.
+**By:** Babuni.
+
+## Identity and writing rules
+
+The current GitHub repository is **MultiActionEmotes**, formerly `ROARRunlimited`; the actual addon retains `ROARRunlimited.lua`, `ROARRunlimited.toc`, `/roed`, and `ROEDDB`. The case mismatch between the TOC's `roarrunlimited.lua` reference and the on-disk `ROARRunlimited.lua` is unresolved and must not be silently fixed as part of renaming documentation.
+
+Write public-facing history in my first-person perspective, never starting a sentence with “I” or “My.” Use **Babuni** for the person and **babuni.dev** for the portfolio. Use **creative**, not “creator,” for the human role label. Attribute AI work separately and only when evidenced; distinguish proposals, implemented edits, tests and retrospective reconstruction. Neutral technical voice is acceptable for reference material.
 
 ## Preserve this project's role
 
@@ -10,7 +16,7 @@ Read `README.md`, `CONCEPT.md`, `docs/ARCHITECTURE.md`, `docs/DEVLOG.md`, `docs/
 
 ## Collaboration history and truthfulness
 
-1. Credit Babuni.dev for the idea and human creative direction; assign AI only work specifically evidenced as AI assistance.
+1. Credit Babuni for the idea and human creative direction; assign AI only work specifically evidenced as AI assistance.
 2. Preserve source-backed iterations (2025 per-slot configuration → v1.1 instance numbering → 2026 four-token pool) without inventing dialogue, approval or rationale.
 3. Separate user decisions from AI proposals and mark outstanding options clearly.
 4. Every material change should update README, ROADMAP, CHANGELOG and relevant `docs/` records with exact changed paths and commit.
