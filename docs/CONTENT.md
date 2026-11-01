@@ -1,6 +1,8 @@
-# ROARRunlimited — emote inventory and player-facing text
+# MultiActionEmotes — emote inventory and player-facing text
 
-**Project author:** Babuni.dev.  
+This inventory records the original **ROARRunlimited** addon content, now presented under my repository name **MultiActionEmotes**. The change did not alter emote tokens or game text.
+
+**Project author:** Babuni.  
 **Canonical implementation:** `EMOTE_TOKENS_BATTLE` in `ROARRunlimited.lua`.
 
 ## Current emote pool (four tokens)
