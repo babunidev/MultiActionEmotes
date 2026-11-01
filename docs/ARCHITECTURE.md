@@ -1,4 +1,6 @@
-# ROARRunlimited — architecture, version 1.1
+# MultiActionEmotes — architecture, version 1.1
+
+This documents the historical **ROARRunlimited** implementation in my renamed **MultiActionEmotes** repository; the Lua/TOC, `/roed` interface, and `ROEDDB` retain their original identities.
 
 **Evidence:** `ROARRunlimited.lua` and `ROARRunlimited.toc` on 2026-10-26. Static analysis only.
 
