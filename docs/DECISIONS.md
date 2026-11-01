@@ -1,6 +1,6 @@
-# ROARRunlimited — design decisions and evidence
+# MultiActionEmotes — design decisions and evidence
 
-**Human creative authority:** Babuni.dev.  
+**Human creative authority:** Babuni.  
 **Status legend:** Implemented in source, historical Git evidence, or not yet decided.
 
 ## Implemented choices
@@ -39,4 +39,8 @@ These are **risks / observable semantics**, not proven client failures or implic
 4. Should users be able to remove a single instance?
 5. Should the source's removal of `BORED` be treated as a permanent artistic choice?
 
-The documentation pass settled none of these on Babuni.dev's behalf.
+The documentation pass settled none of these on Babuni's behalf.
+
+## November 2026 — repository identity
+
+The new repository name, **MultiActionEmotes**, describes the multiple independently configured action-slot triggers without discarding the historical **ROARRunlimited** addon identity. This naming choice is mine; AI updated the documentation at my direction. No runtime identifiers were changed or tested.
