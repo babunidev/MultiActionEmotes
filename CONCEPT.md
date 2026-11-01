@@ -1,8 +1,10 @@
-# ROARRunlimited — concept and creative direction
+# MultiActionEmotes — concept and creative direction
 
-**Creator:** Babuni.dev
+**By:** Babuni
 
 ## When one roar is not enough
+
+After my earlier single-slot emote experiments, the idea grew into making several action buttons independently expressive. My **MultiActionEmotes** repository retains that older **ROARRunlimited** implementation and its original “action bar into a war drum” image.
 
 Earlier ROAR/ROARR addons let the player pick one action-bar button to occasionally trigger a built-in emote. **ROARRunlimited expands that idea from one watched action into a configurable collection of independent expressive triggers.** A different button can have a different personality rhythm: frequent enthusiasm on one action, rarer celebration on another.
 
@@ -25,6 +27,6 @@ The first December 2025 source indexed entries directly by watched action-slot I
 
 ## What still needs author input
 
-The code allows more than one instance to watch the same physical action slot, potentially producing multiple emotes on one press. Whether this is creative flexibility or an edge case to prevent is for Babuni.dev to decide. The current documentation does not implicitly approve restricting it.
+The code allows more than one instance to watch the same physical action slot, potentially producing multiple emotes on one press. Whether this is creative flexibility or an edge case to prevent is for me to decide. The current documentation does not implicitly approve restricting it.
 
 This repo should be preserved as a distinct step in the broader ROAR addon family, but direct migration or inheritance beyond demonstrated similarities requires evidence.
