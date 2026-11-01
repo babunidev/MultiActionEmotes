@@ -1,13 +1,17 @@
-# ROARRunlimited — turn your action bar into a war drum
+# MultiActionEmotes — turn your action bar into a war drum
 
-**Creator / author:** Babuni.dev  
+**By:** Babuni  
 **Target:** World of Warcraft 1.12 / Lua 5.0, as declared in the addon  
 **Version:** 1.1 (manifest and source)  
 **Runtime status:** Not tested during this documentation review
 
+This is my **MultiActionEmotes** project, originally called **ROARRunlimited**. The new GitHub name describes its defining feature: several independently configured action-slot emote triggers. Its original working metaphor—turning an action bar into a war drum—remains part of the project's identity.
+
+The repository is now [MultiActionEmotes](https://github.com/babunidev/MultiActionEmotes), but the installed addon still uses `ROARRunlimited.lua`, `ROARRunlimited.toc`, `/roed`, and `ROEDDB`. This documentation change does not rename those runtime identifiers.
+
 ROARRunlimited builds on the action-triggered emote idea by letting a player associate **as many numbered configurations as needed** with action-bar slots. Each numbered instance has its own chosen action slot, trigger chance, and cooldown. Pressing a configured button can play a randomly selected native WoW battle emote while leaving the button's normal action intact.
 
-The creator's original README captured the personality of the project in one line: **“ROARRunlimited turns your action bar into a war drum.”** This is character-flavor tooling, not a spell rotation, combat automation, or a custom audio/animation system.
+My original README captured the personality of the project in one line: **“ROARRunlimited turns your action bar into a war drum.”** This is character-flavor tooling, not a spell rotation, combat automation, or a custom audio/animation system.
 
 ## Important packaging check
 
@@ -68,11 +72,11 @@ Configuration is stored in account-wide `ROEDDB`. The nested `slots` entries inc
 
 ## Relationship to other ROAR projects
 
-[The earlier `roar` repository](https://github.com/babunidev/roar) and [`roarr`](https://github.com/babunidev/roarr) implement a simpler **single watched-slot** design. ROARRunlimited, created in December 2025, independently stores multiple numbered instances with separate odds and timing. A later project named RoarForever has its own history; shared naming should not silently merge their codebases or authorship.
+[The earlier `roar` repository](https://github.com/babunidev/BattleEmotesLegacy) and [`roarr`](https://github.com/babunidev/BattleEmotes) implement a simpler **single watched-slot** design. ROARRunlimited, created in December 2025, independently stores multiple numbered instances with separate odds and timing. A later project named RoarForever has its own history; shared naming should not silently merge their codebases or authorship.
 
 ## License, current limitations, and verification
 
-The repository has an **MIT LICENSE**, credited to Babuni.dev. The source itself retains an older `babunigaming` author comment, which is part of historical source and was left untouched.
+The repository has an **MIT LICENSE**, credited to Babuni. The source itself retains an older `babunigaming` author comment, which is part of historical source and was left untouched.
 
 This README reflects static source inspection. The following are **not yet tested in the game**: filename-case loading, all slash commands, multi-instance output, restart persistence, behavior alongside other `UseAction` hooks, and cross-client emote token support. See the [roadmap](ROADMAP.md) for an actionable test checklist.
 
@@ -83,4 +87,4 @@ This README reflects static source inspection. The following are **not yet teste
 - [Verification roadmap](ROADMAP.md) · [Changelog](CHANGELOG.md)
 - [Human–AI collaboration](docs/AI_COLLABORATION.md) · [AI development instructions](AGENTS.md)
 
-Documentation distinguishes Babuni.dev's authorship, demonstrable Git history, AI editorial work, and in-game behavior still awaiting verification.
+Documentation distinguishes Babuni's authorship, demonstrable Git history, AI editorial work, and in-game behavior still awaiting verification.
