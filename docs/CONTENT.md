@@ -34,3 +34,7 @@ Source strings and the README are in English. No separate locale tables or embed
 ## Content-edit standards
 
 Preserve the distinction between a **new emote token** (game-owned vocabulary) and a **new original written line** (author-owned text), and do not claim a real animation or sound effect without checking the actual client. For any content revision, document the author's direction, source diff and observed behavior.
+
+## Related development history
+
+Multi Action Emotes (originally ROARRunlimited) made a major advance by supporting multiple independently configured watched-action-slot instances. Its **four built-in emote tokens**—ROAR, CHARGE, CHEER, FLEX—form a fixed Lua array; `slotX`, `chanceX` and `timerX` configure each instance, but there is **no command to add a new emote token**. Editable registries appear in the subsequent Roar Guild Addon and Wrath port. See [the full comparative record](EMOTE_FAMILY_HISTORY.md) for the wider evolution.

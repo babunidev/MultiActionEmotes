@@ -44,3 +44,7 @@ The documentation pass settled none of these on Babuni's behalf.
 ## November 2026 — repository identity
 
 The new repository name, **MultiActionEmotes**, describes the multiple independently configured action-slot triggers without discarding the historical **ROARRunlimited** addon identity. This naming choice is mine; AI updated the documentation at my direction. No runtime identifiers were changed or tested.
+
+## Related development history
+
+Multi Action Emotes (originally ROARRunlimited) made a major advance by supporting multiple independently configured watched-action-slot instances. Its **four built-in emote tokens**—ROAR, CHARGE, CHEER, FLEX—form a fixed Lua array; `slotX`, `chanceX` and `timerX` configure each instance, but there is **no command to add a new emote token**. Editable registries appear in the subsequent Roar Guild Addon and Wrath port. See [the full comparative record](EMOTE_FAMILY_HISTORY.md) for the wider evolution.

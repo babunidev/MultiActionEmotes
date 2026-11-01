@@ -88,3 +88,7 @@ This README reflects static source inspection. The following are **not yet teste
 - [Human–AI collaboration](docs/AI_COLLABORATION.md) · [AI development instructions](AGENTS.md)
 
 Documentation distinguishes Babuni's authorship, demonstrable Git history, AI editorial work, and in-game behavior still awaiting verification.
+
+## Place in the action-emote evolution
+
+Multi Action Emotes (originally ROARRunlimited) made a major advance by supporting multiple independently configured watched-action-slot instances. Its **four built-in emote tokens**—ROAR, CHARGE, CHEER, FLEX—form a fixed Lua array; `slotX`, `chanceX` and `timerX` configure each instance, but there is **no command to add a new emote token**. Editable registries appear in the subsequent Roar Guild Addon and Wrath port. The [comparative history](docs/EMOTE_FAMILY_HISTORY.md) separates multiple triggers from truly player-extensible emote lists and from Flourish Forever's spellcast trigger.

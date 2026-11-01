@@ -31,3 +31,8 @@
 | **2026-10-26** | `3a5fa29`, `6ba50e1`, `78eae98`, `0587573`, `eb2bcc2` | Author-credit and initial documentation scaffolding work before this expansion. |
 
 The term **“FIXED”** is a source label, not evidence that packaging and runtime behavior were validated. The available Git history documents changes, not every original conversation or motivation.
+
+## 2026-11-01 — comparative documentation
+
+- Clarified the four-token fixed source pool versus multiple configurable slots and later player-added token registries.
+- Added [the full family history](docs/EMOTE_FAMILY_HISTORY.md); no addon code changes.

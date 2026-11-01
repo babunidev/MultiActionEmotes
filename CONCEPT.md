@@ -30,3 +30,7 @@ The first December 2025 source indexed entries directly by watched action-slot I
 The code allows more than one instance to watch the same physical action slot, potentially producing multiple emotes on one press. Whether this is creative flexibility or an edge case to prevent is for me to decide. The current documentation does not implicitly approve restricting it.
 
 This repo should be preserved as a distinct step in the broader ROAR addon family, but direct migration or inheritance beyond demonstrated similarities requires evidence.
+
+## Related development history
+
+Multi Action Emotes (originally ROARRunlimited) made a major advance by supporting multiple independently configured watched-action-slot instances. Its **four built-in emote tokens**—ROAR, CHARGE, CHEER, FLEX—form a fixed Lua array; `slotX`, `chanceX` and `timerX` configure each instance, but there is **no command to add a new emote token**. Editable registries appear in the subsequent Roar Guild Addon and Wrath port. See [the full comparative record](docs/EMOTE_FAMILY_HISTORY.md) for the wider evolution.

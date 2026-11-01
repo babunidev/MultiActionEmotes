@@ -34,3 +34,7 @@ Read `README.md`, `CONCEPT.md`, `docs/ARCHITECTURE.md`, `docs/DEVLOG.md`, `docs/
 - Loading of saved settings is lazy; `PLAYER_LOGOUT` saves whether or not `ensureLoaded` was invoked.
 - Two instances can watch the same physical slot and each may emit one emote.
 - Test actual client behavior and record failures as failures, not inferred successes.
+
+## Lineage and technical limits
+
+Consult [the emote-family history](docs/EMOTE_FAMILY_HISTORY.md) before describing the ROARRunlimited progression. Multiple slot configurations are implemented here; a user-editable emote registry is not. Do not claim an unbounded emote list or reuse features from later Roar Guild versions as current behavior.

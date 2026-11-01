@@ -72,3 +72,7 @@ The TOC declares account-wide `SavedVariables: ROEDDB`. `ensureLoaded()` only ru
 - Numeric inputs are parsed with `tonumber`, without enforcing physical action-slot bounds or validating small integer-only indices.
 
 No Lua, TOC, license, sound/media, GUI, or network-layer changes were made in the documentation pass.
+
+## Related development history
+
+Multi Action Emotes (originally ROARRunlimited) made a major advance by supporting multiple independently configured watched-action-slot instances. Its **four built-in emote tokens**—ROAR, CHARGE, CHEER, FLEX—form a fixed Lua array; `slotX`, `chanceX` and `timerX` configure each instance, but there is **no command to add a new emote token**. Editable registries appear in the subsequent Roar Guild Addon and Wrath port. See [the full comparative record](EMOTE_FAMILY_HISTORY.md) for the wider evolution.

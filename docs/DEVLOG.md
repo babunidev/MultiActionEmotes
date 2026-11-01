@@ -54,3 +54,7 @@ The distinctive creative direction belongs to Babuni: turning routine button pre
 ## November 2026 — MultiActionEmotes
 
 The repository is now named **MultiActionEmotes** rather than **ROARRunlimited**. That change makes the multiple independently configured action triggers easier to recognize beside my other emote addons. At my request, an AI assistant revised the documentation and its attribution while leaving `ROARRunlimited.lua`, the manifest, `/roed`, and the saved-variable structure intact. The original filename capitalization mismatch remains open, and no new client test was performed.
+
+## 1 November 2026 — the step from one button to many
+
+Reviewing the series, I wanted the significance of ROARRunlimited to be specific: its change was allowing many independently configured action slots, not inventing an infinite emote list. My AI assistant checked the actual pool and command parser and confirmed the **four native tokens are fixed**, while the later guild addon introduces the emote-registration command. This distinction and the subsequent Wrath and Forever variations now appear in [the family history](EMOTE_FAMILY_HISTORY.md). No runtime code or tests were changed.
