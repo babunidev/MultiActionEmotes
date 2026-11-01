@@ -1,9 +1,11 @@
-# ROARRunlimited — creative and technical development journal
+# MultiActionEmotes — creative and technical development journal
 
-**Creator / creative director:** Babuni.dev.  
+**By:** Babuni.  
 **Prepared:** 2026-10-26 from the actual GitHub README, Lua source, manifest and selected dated commit diffs. It is a **retrospective reconstruction**, not a transcript of the original creative discussion.
 
 ## A step past the single roar
+
+For this project, I wanted more than a single action button to have a personality of its own. The original **ROARRunlimited** addon developed the idea into independently configurable triggers, now presented in my portfolio as **MultiActionEmotes**.
 
 ROARRunlimited grows from a simple pleasure in making a World of Warcraft character seem more expressive. Instead of treating one button as the source of an occasional battle cry, the project makes a collection of action-bar buttons eligible to produce different spontaneous responses. An aggressive move can lead to a roar, another to an exuberant cheer, another to a proud flex. The player's actual actions remain intact; the extra behavior is flavor.
 
@@ -39,12 +41,16 @@ The source also persists the `last` value, which is derived from `GetTime()`. Si
 
 ## September–October 2026: a durable portfolio record
 
-A **2026-09-18** commit (`ad85459`) generalized specific private-server wording to the broader **Vanilla WoW 1.12** client target. Several **2026-10-26** commits updated Babuni.dev attribution and added basic documentation links and skeletons.
+A **2026-09-18** commit (`ad85459`) generalized specific private-server wording to the broader **Vanilla WoW 1.12** client target. Several **2026-10-26** commits updated Babuni attribution and added basic documentation links and skeletons.
 
 In this deeper documentation pass, an AI assistant inspected the actual source and selected historic diffs, separated ROARRunlimited from the earlier `roar` and `roarr` projects, identified the packaging and persistence questions, and expanded the full project documentation. That is **editorial research and a documentation commit**, not the creation of the original concept and not a runtime code fix. No Lua/TOC changes or in-game tests were made.
 
 ## What the development record protects
 
-The distinctive creative direction belongs to Babuni.dev: turning routine button presses into a playful, dynamic war drum. The AI contribution here is to make the code, its history and its uncertainties legible for future maintenance and an eventual portfolio narrative. The records do not assign unrecorded dialogue or motivation to either party.
+The distinctive creative direction belongs to Babuni: turning routine button presses into a playful, dynamic war drum. The AI contribution here is to make the code, its history and its uncertainties legible for future maintenance and an eventual portfolio narrative. The records do not assign unrecorded dialogue or motivation to either party.
 
 **Verified through Git/source reading:** file history, instance model, four-token pool, default settings, command forms, capitalization mismatch, and potential persistence pitfalls. **Unverified in-game:** whether current package loads on the intended client, probability/cooldown behavior, duplicate-slot output, cross-addon compatibility, and any actual reported failure.
+
+## November 2026 — MultiActionEmotes
+
+The repository is now named **MultiActionEmotes** rather than **ROARRunlimited**. That change makes the multiple independently configured action triggers easier to recognize beside my other emote addons. At my request, an AI assistant revised the documentation and its attribution while leaving `ROARRunlimited.lua`, the manifest, `/roed`, and the saved-variable structure intact. The original filename capitalization mismatch remains open, and no new client test was performed.
