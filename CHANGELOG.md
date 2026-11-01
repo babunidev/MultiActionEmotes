@@ -1,6 +1,12 @@
-# ROARRunlimited — changelog and evidenced development
+# MultiActionEmotes — changelog and evidenced development
 
-**Creator:** Babuni.dev. Historical dates below refer to Git commits, not asserted public release dates.
+**By:** Babuni. Historical dates below refer to Git commits, not asserted public release dates.
+
+## 2026-11-01 — repository identity and documentation
+
+- The GitHub repository was renamed **MultiActionEmotes**, formerly `ROARRunlimited`, at my direction.
+- With AI assistance, I revised the documentation to describe the multi-instance project in my first-person perspective and preserve the original runtime names.
+- This was documentation-only work; no Lua, TOC, license or runtime test was changed.
 
 ## 2026-10-26 — full documentation pass
 
