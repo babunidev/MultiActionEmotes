@@ -10,7 +10,7 @@ Write public-facing history in my first-person perspective, never starting a sen
 
 ## Preserve this project's role
 
-ROARRunlimited is the **multi-instance** branch of the action-triggered emote idea: each numbered instance configures a physical action slot, chance and cooldown. Keep that architecture distinct from the single-slot `roar` and `roarr` repositories and from later RoarForever unless specific Git or creator evidence establishes a connection.
+ROARRunlimited is the **multi-instance** branch of the action-triggered emote idea: each numbered instance configures a physical action slot, chance and cooldown. Keep that architecture distinct from the single-slot `roar` and `roarr` repositories and from later RoarForever unless specific Git or creative evidence establishes a connection.
 
 Read `README.md`, `CONCEPT.md`, `docs/ARCHITECTURE.md`, `docs/DEVLOG.md`, `docs/DECISIONS.md` and current Lua/TOC before designing any change.
 
