@@ -1,4 +1,4 @@
-# MultiActionEmotes — creative and technical development journal
+# MultiActionEmotes — development journal
 
 **By:** Babuni.  
 **Prepared:** 2026-10-26 from the actual GitHub README, Lua source, manifest and selected dated commit diffs. It is a **retrospective reconstruction**, not a transcript of the original creative discussion.
